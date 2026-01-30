@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-acoshf",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Compute the hyperbolic arccosine of a single-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
@@ -40,17 +40,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-float32-ln-two": "github:stdlib-js/constants-float32-ln-two#main",
+    "@stdlib/constants-float32-ln-two": "^0.1.0",
     "@stdlib/math-base-assert-is-nanf": "^0.2.2",
-    "@stdlib/math-base-napi-unary": "^0.2.3",
+    "@stdlib/math-base-napi-unary": "^0.2.5",
     "@stdlib/math-base-special-lnf": "^0.0.2",
     "@stdlib/math-base-special-log1pf": "github:stdlib-js/math-base-special-log1pf#main",
     "@stdlib/math-base-special-sqrtf": "^0.2.2",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
+    "@stdlib/console-log-each-map": "^0.1.0",
     "@stdlib/constants-float32-eps": "^0.2.2",
     "@stdlib/number-float32-base-ulp-difference": "github:stdlib-js/number-float32-base-ulp-difference#main",
     "@stdlib/random-array-uniform": "^0.2.1",
@@ -97,87 +97,6 @@
     "polyfill",
     "ponyfill"
   ],
-  "__stdlib__": {
-    "scaffold": {
-      "$schema": "math/base@v1.0",
-      "base_alias": "acosh",
-      "alias": "acoshf",
-      "pkg_desc": "compute the hyperbolic arccosine of a single-precision floating-point number",
-      "desc": "computes the hyperbolic arccosine of a single-precision floating-point number",
-      "short_desc": "hyperbolic arccosine",
-      "parameters": [
-        {
-          "name": "x",
-          "desc": "input value",
-          "type": {
-            "javascript": "number",
-            "jsdoc": "number",
-            "c": "float",
-            "dtype": "float32"
-          },
-          "domain": [
-            {
-              "min": 1,
-              "max": "infinity"
-            }
-          ],
-          "rand": {
-            "prng": "random/base/uniform",
-            "parameters": [
-              1,
-              10
-            ]
-          },
-          "example_values": [
-            64,
-            27,
-            1.1,
-            6.5,
-            9,
-            8,
-            1,
-            125,
-            10.2,
-            11.3,
-            12.4,
-            3.5,
-            1.6,
-            15.7,
-            16,
-            17.9,
-            188,
-            19.11,
-            200,
-            21.15
-          ]
-        }
-      ],
-      "output_policy": "real_floating_point_and_generic",
-      "returns": {
-        "desc": "hyperbolic arccosine",
-        "type": {
-          "javascript": "number",
-          "jsdoc": "number",
-          "c": "float",
-          "dtype": "float32"
-        }
-      },
-      "keywords": [
-        "acosh",
-        "hyperbolic",
-        "inverse",
-        "cosine",
-        "cos",
-        "arc",
-        "arccosine",
-        "trig",
-        "trigonometry"
-      ],
-      "extra_keywords": [
-        "math.acosh"
-      ]
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
