@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import acoshf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acoshf@esm/index.mjs';
+import acoshf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acoshf@v0.1.1-esm/index.mjs';
 ```
 
 #### acoshf( x )
@@ -85,7 +85,7 @@ var v = acoshf( 0.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import acoshf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acoshf@esm/index.mjs';
+import acoshf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-acoshf@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
